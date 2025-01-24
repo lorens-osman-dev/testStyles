@@ -1,23 +1,26 @@
 <script setup lang="ts">
-import BUT from "./components/buttton.vue";
-import BU from "./components/btnred.vue";
+import RED from "./components/RED_Button.vue";
+import simple from "./components/simple_button.vue";
 </script>
 
 <template>
   <div class="wrapper">
 
-    <BUT></BUT> <BU></BU> <BUT></BUT> 
+    <RED />
+    <simple />
+
   </div>
 </template>
 
 <style scoped>
-.wrapper{
+.wrapper {
 
   display: flex;
   flex-direction: column;
   background-color: #0e0e0e;
   align-items: center;
-  .sect{
+
+  .sect {
     margin-top: 15px;
     height: 90vh;
     width: 90vw;
