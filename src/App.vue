@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import RED from "./components/RED_Button.vue";
-import simple from "./components/simple_button.vue";
 </script>
 
 <template>
   <div class="wrapper">
 
-    <RED />
-    <simple />
+    <RED_Button />
+    <simple_button />
+    <Blue_Button />
+    <purple />
 
   </div>
 </template>
