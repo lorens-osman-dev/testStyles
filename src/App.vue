@@ -8,6 +8,7 @@
     <simple_button />
     <Blue_Button />
     <purple />
+    <glass />
 
   </div>
 </template>

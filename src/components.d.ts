@@ -8,6 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Blue_Button: typeof import('./components/Blue_Button.vue')['default']
+    Glass: typeof import('./components/glass.vue')['default']
     P: typeof import('./components/p.vue')['default']
     Purple: typeof import('./components/purple.vue')['default']
     Purpul: typeof import('./components/purpul.vue')['default']
