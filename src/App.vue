@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
@@ -9,6 +10,7 @@
     <Blue_Button />
     <purple />
     <glass />
+    <Squircle />
 
   </div>
 </template>

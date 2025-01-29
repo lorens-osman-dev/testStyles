@@ -14,5 +14,6 @@ declare module 'vue' {
     Purpul: typeof import('./components/purpul.vue')['default']
     RED_Button: typeof import('./components/RED_Button.vue')['default']
     Simple_button: typeof import('./components/simple_button.vue')['default']
+    Squircle: typeof import('./components/Squircle.vue')['default']
   }
 }
